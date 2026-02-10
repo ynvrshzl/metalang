@@ -9,6 +9,11 @@ Some sample kits include:
 
 ## Samples of Kits
 
+Comparison of classical programming arithmetic, and meta-lang's implementation model.
+```js
+const x = 32 + 64;
+```
+
 ```js
 Arithmetic("Showcase").int(64).plus().int(32)
 ```
