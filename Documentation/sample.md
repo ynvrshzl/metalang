@@ -4,13 +4,18 @@ This is an example of what the future of programming could look like. A purely b
 Metalang (2026)
 
 ```javascript
+new Section("Main");
+new Comment("Fibonacci sequence prints the sum of the previous 2 numbers. Starting from 0 and 1")
 new Program("fibonacci sequence")
 	.note("the Program defines the abstract flow of the program. But the actual values are set when the program is executed, later.")
 	.thread("input").accepts("number").store("program stack")
 	.thread("enumlogic").type("i-based loop").input("thread: input")
-    	.define.loop("enumlogic").iterator("i").apply("math: fibonacci")
-    .thread("output").returns("console").data("enumlogic: output")
-Program("fibonacci sequence").input(2).execute()
+    	.define().loop("enumlogic").iterator("i").apply("math: fibonacci")
+    .thread("output").returns("console").data("enumlogic: output");
+
+new Section("Tests");
+new Rail("Test").sample().Program("fibonacci sequence").input(5).execute().input(8).execute();
+Output('system-console');
 ```
 
 Javascript (1999)
