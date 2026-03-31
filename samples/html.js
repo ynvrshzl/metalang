@@ -3,6 +3,10 @@
  * Copyright (c) Hazl, 2026
 */
 
+/**
+ * Implementation: new HTML("div") | or even simpler, a factory function composition pattern, where the "new" keyword is... | HTML("div").change().property("color").to("blue");
+*/
+
 /** 
  * HTML Component construction 🏗️ interface 
  * @example new HTML("div")
