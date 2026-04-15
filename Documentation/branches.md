@@ -12,3 +12,5 @@ Many branches of ML are planned in the near future, but as of now, this document
 | `"main"` | current branch, dedicated mostly to Documentation of ML |
 | `"notation"` | an experimental branch of a notation language for programming. |
 | `"cs"` | (Conceptual Schematics) is dedicated to sharing programming concepts, rather than rigid frameworks. |
+| [`microlangs`](#) | Separate of domains as micro, focused syntax |
+
