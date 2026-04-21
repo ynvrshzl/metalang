@@ -13,6 +13,7 @@ This is not only a collection of "patterns" but also, our research at connecting
 
 | (B) Block | (F) Function or (R) Role | (E) Example |
 | ---   | -------- | --- |
+| Git() | Provides utilities for interacting with Git systems and services, from within the executable code itself. | Git().auth(encrypt) |
 | App() _or_ Program() | The beginning of an application. | |
 | Models.Web()  | A structure of code in which parts resemble nodes on a network. Highly advanced. |  |
 | Todo() _or_ Notebook()        | Arguably, the most imoprtant block in an engineers toolkit.                                                       | Todo("New set here...") _or_ Chain().todo("Fix this sequence guys! comeon!) |
