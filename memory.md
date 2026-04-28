@@ -26,7 +26,12 @@ fundamentally, objects are a form of tree model memory. this is most likely the 
 for example with the tree model structure, we fundamentally change the way we store and think of our program. it's similar to website URLs or folder paths, which is essentially a binary file tree structure. 
 
 ```js
-Memory.elems.buttons.graph
+// in meta, closer to the human neuron ability to construct paths in binary space, we store units of information, inspired by hop field networks, or more practically speaking, folder paths and urls. this is how we actually construct parts of the real world.
+Memory.elems.buttons.graph;
+
+// we also explore the ability to store different kinds of data, not limited to graphical components. this means we unlock a new processing ability, which allows us to introspect the system later. so the memory domain is a core aspect in meta, as it is a core aspect in life, and computers!
+Program.branches.core;
+
 ```
 
 ## nonlinear, database representations of memory structure in code.
