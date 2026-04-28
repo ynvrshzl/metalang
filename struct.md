@@ -5,5 +5,5 @@ this explains the most common structure for which methylene is ordered. basicall
 ```js
 new Variable("String based string?")
     .dtring("but what is a string?")
-    .vbr("a string is a vibration, as explored in string theory! here we have a fundamental visualization to explain this phenomenon.)
+    .vbr("a string is a vibration, as explored in string theory! here we have a fundamental visualization to explain this phenomenon.")
     .vis("spaghetti")
