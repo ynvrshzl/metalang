@@ -26,6 +26,16 @@ fundamentally, objects are a form of tree model memory. this is most likely the 
 for example with the tree model structure, we fundamentally change the way we store and think of our program. it's similar to website URLs or folder paths, which is essentially a binary file tree structure. 
 
 ```js
+// there are two aspects to the memory domain in matalang.
+// 1) how we actually store information. 
+// 2) are we retrieve information. 
+new Data("My fancy integer").value(3);
+
+// in this example, we store an abstract kind of data, we describe how data will be stored. this is essentially the ability to create types, as inspired by the Ada programming language, as well as lisp.
+new Abstract("x").type("integer")
+```
+
+```js
 // in meta, closer to the human neuron ability to construct paths in binary space, we store units of information, inspired by hop field networks, or more practically speaking, folder paths and urls. this is how we actually construct parts of the real world.
 Memory.elems.buttons.graph;
 
