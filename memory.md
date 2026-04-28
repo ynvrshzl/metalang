@@ -30,10 +30,25 @@ for example with the tree model structure, we fundamentally change the way we st
 // 1) how we actually store information. 
 // 2) are we retrieve information. 
 new Data("My fancy integer").value(3);
+```
 
+where is this data being stored? and how do we access it? those are the two primary parts of this memory model domain. 
+
+```js
+// when we create a new data piece in meta, internally it is calling the system core components, to store data, into a program register. this is essentially how computers also work, and how they make memory management, a problem to solve computationally, not manually. 
+
+// in this case, the program stores the data, to the default block:
+Program.memory.data['My fancy integer']
+```
+
+the way we think about data, shapes how we construct our computer programs. Peter is not only used for storing information, but it is fundamentally about remembering state. means we and store program snapshots, restore points, and more design problems, by simply making the most of memory as a fundamental unit of expression. rather than a static variable to store data.
+
+```js
 // in this example, we store an abstract kind of data, we describe how data will be stored. this is essentially the ability to create types, as inspired by the Ada programming language, as well as lisp.
 new Abstract("x").type("integer")
 ```
+
+the actual binary tree data models, are still being worked on, but in the most classical programming terms, we can access the object chain, because essentially objects are like binary trees:
 
 ```js
 // in meta, closer to the human neuron ability to construct paths in binary space, we store units of information, inspired by hop field networks, or more practically speaking, folder paths and urls. this is how we actually construct parts of the real world.
@@ -41,7 +56,13 @@ Memory.elems.buttons.graph;
 
 // we also explore the ability to store different kinds of data, not limited to graphical components. this means we unlock a new processing ability, which allows us to introspect the system later. so the memory domain is a core aspect in meta, as it is a core aspect in life, and computers!
 Program.branches.core;
+```
 
+here is a work in progress model for retrieving data. this helps us to think in terms of url paths, categories, and folders, which is more familiar than static variables.
+
+```js
+//
+Retrieve("Program/branches/core").unit("My fancy integer")
 ```
 
 ## nonlinear, database representations of memory structure in code.
