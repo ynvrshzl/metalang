@@ -1,8 +1,10 @@
 # Classical programming
 Research, analysis, and reverse-engineering classical programming and computational language systems, for meta-lang research.
 
-## Variables 
+## Variable
+The variable is essentially, a placeholder for another value. The reason a variable is a significant unit of power, is becuase of it's __expression of non-linearity.__
 
+When two variables join [...]
 
 In classical programming, there are **2** fundamental usages of variables:
 

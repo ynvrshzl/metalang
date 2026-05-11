@@ -9,7 +9,7 @@ Basically, these are way s of thinking about common system architecture patterns
 ## Appliaction
 This is not only a collection of "patterns" but also, our research at connecting function with execution. Enconding the purpose of each block, in it's definition, or ideally, the name itself. E.g. App() describes an application, as function and use-case. This matters becuase code is often about what exists, but not how or when to use it. Those come from definitions of function.
 
-## 🟣 Concepts
+## Concepts
 
 | (B) Block | (F) Function or (R) Role | (E) Example |
 | ---   | -------- | --- |
